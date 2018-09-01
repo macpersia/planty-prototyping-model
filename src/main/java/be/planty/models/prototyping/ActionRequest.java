@@ -1,21 +1,20 @@
 package be.planty.models.prototyping;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.Map;
 
 import static java.util.Collections.unmodifiableMap;
 
-public class ActionRequest {
+public class ActionRequest extends be.planty.models.assistant.ActionRequest {
 
-    public final String action;
     public final Map<String, String> parameters;
 
     @JsonCreator
-    public ActionRequest(String action, Map<String, String> parameters) {
-        this.action = action;
+    public ActionRequest(@JsonProperty("action") String action,
+                         @JsonProperty("parameters") Map<String, String> parameters) {
+        super(action);
         this.parameters = unmodifiableMap(parameters);
     }
 }

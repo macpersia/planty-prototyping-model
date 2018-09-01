@@ -1,13 +1,12 @@
 package be.planty.models.prototyping;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class ActionResponse {
-
-    public final int statusCode;
+public class ActionResponse extends be.planty.models.assistant.ActionResponse {
 
     @JsonCreator
-    public ActionResponse(int statusCode) {
-        this.statusCode = statusCode;
+    public ActionResponse(@JsonProperty("statusCode") Integer statusCode) {
+        super(statusCode);
     }
 }
