@@ -6,6 +6,17 @@
 	<groupId>be.planty.models.prototyping</groupId>
 	<artifactId>planty-prototyping-model</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>Planty Prototyping Model</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<ask.sdk.version>2.3.1</ask.sdk.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>be.planty.models.assistant</groupId>
@@ -18,14 +29,4 @@
 			<version>2.9.0</version>
 		</dependency>
 	</dependencies>
-	<packaging>jar</packaging>
-
-	<name>Planty Prototyping Model</name>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-		<ask.sdk.version>2.3.1</ask.sdk.version>
-	</properties>
 </project>
