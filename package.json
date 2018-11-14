@@ -1,0 +1,26 @@
+{
+  "name": "planty-prototyping-model",
+  "version": "0.0.1",
+  "description": "Planty Prototyping Model",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/planty-assistant-devs/planty-prototyping-model.git"
+  },
+  "author": "macpersia",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/planty-assistant-devs/planty-prototyping-model#readme",
+  "devDependencies": {
+    "tslint": "~5.8.0",
+    "typescript": "~2.8.3"
+  },
+  "private": false,
+  "optionalDependencies": {
+    "planty-assistant-model": "file:../planty-assistant-model/lib"
+  }
+}
