@@ -15,12 +15,12 @@
   "author": "macpersia",
   "license": "ISC",
   "homepage": "https://bitbucket.org/planty-assistant-devs/planty-prototyping-model#readme",
+  "dependencies": {
+    "planty-assistant-model": "0.0.3"
+  },
   "devDependencies": {
     "tslint": "~5.8.0",
     "typescript": "~2.8.3"
   },
-  "private": false,
-  "optionalDependencies": {
-    "planty-assistant-model": "file:../planty-assistant-model/lib"
-  }
+  "private": false
 }
