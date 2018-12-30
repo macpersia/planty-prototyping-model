@@ -16,7 +16,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/planty-assistant-devs/planty-prototyping-model#readme",
   "dependencies": {
-    "planty-assistant-model": "0.0.5"
+    "planty-assistant-model": "0.0.6"
   },
   "devDependencies": {
     "tslint": "~5.8.0",
