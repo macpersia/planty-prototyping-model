@@ -10,8 +10,8 @@ node {
 	}
 	
 	stage('build4mvn') {
-		withMaven(jdk: 'jdk-8', maven: 'maven-3.6.0', /*, tempBinDir: ''*/) {
-			sh "mvn install -DskipTests"
+		withMaven(jdk: 'jdk-8', maven: 'maven-3.6.0', mavenSettingsConfig: 'my-maven-settings'/*, tempBinDir: ''*/) {
+			sh "mvn deploy -DskipTests -DaltDeploymentRepository=local-snapshots::default::http://repo-nexus-service:8081/repository/maven-snapshots"
 		}
 	}
 
