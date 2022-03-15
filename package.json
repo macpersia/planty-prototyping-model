@@ -1,6 +1,6 @@
 {
   "name": "planty-prototyping-model",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Planty Prototyping Model",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -16,11 +16,11 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/planty-assistant-devs/planty-prototyping-model#readme",
   "dependencies": {
-    "planty-assistant-model": "0.0.8"
+    "planty-assistant-model": "file:../planty-assistant-model/planty-assistant-model-0.0.8.tgz"
   },
   "devDependencies": {
-    "tslint": "~5.8.0",
-    "typescript": "~2.8.3"
+    "eslint": "^8.11.0",
+    "typescript": "^4.6.2"
   },
   "private": false
 }
